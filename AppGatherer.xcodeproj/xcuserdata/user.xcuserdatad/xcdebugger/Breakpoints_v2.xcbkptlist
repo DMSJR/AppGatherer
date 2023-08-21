@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "67819465-1D48-4092-B819-6C3F32289DC3"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "91053F5D-E4B7-40AC-B5AD-7B08615C3357"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AppFilmes/Home/CardCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
+            landmarkName = "nameStack"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "91053F5D-E4B7-40AC-B5AD-7B08615C3357 - 6555f102da65fae6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; __C.UIStackView in variable initialization expression of AppGatherer.CardCell.nameStack : __C.UIStackView"
+                  moduleName = "AppGatherer"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/user/Desktop/Dorivaldo/AppFilmes/AppFilmes/Home/CardCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "24">
+               </Location>
+               <Location
+                  uuid = "91053F5D-E4B7-40AC-B5AD-7B08615C3357 - ea1da0f72cc836d1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AppGatherer.CardCell.nameStack.getter : __C.UIStackView"
+                  moduleName = "AppGatherer"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/user/Desktop/Dorivaldo/AppFilmes/AppFilmes/Home/CardCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "88">
+               </Location>
+               <Location
+                  uuid = "91053F5D-E4B7-40AC-B5AD-7B08615C3357 - 9a9206ba16af22cd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AppGatherer.CardCell.nameStack.setter : __C.UIStackView"
+                  moduleName = "AppGatherer"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/user/Desktop/Dorivaldo/AppFilmes/AppFilmes/Home/CardCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "112">
+               </Location>
+               <Location
+                  uuid = "91053F5D-E4B7-40AC-B5AD-7B08615C3357 - a66706a808f4f9dc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AppGatherer.CardCell.nameStack.modify : __C.UIStackView"
+                  moduleName = "AppGatherer"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/user/Desktop/Dorivaldo/AppFilmes/AppFilmes/Home/CardCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "91053F5D-E4B7-40AC-B5AD-7B08615C3357 - 6359e501109edcd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AppGatherer.CardCell.nameStack.modify : __C.UIStackView with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "AppGatherer"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/user/Desktop/Dorivaldo/AppFilmes/AppFilmes/Home/CardCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  uuid = "91053F5D-E4B7-40AC-B5AD-7B08615C3357 - 14562d1bd268879d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AppGatherer.CardCell.init(style: __C.UITableViewCellStyle, reuseIdentifier: Swift.Optional&lt;Swift.String&gt;) -&gt; AppGatherer.CardCell"
+                  moduleName = "AppGatherer"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/user/Desktop/Dorivaldo/AppFilmes/AppFilmes/Home/CardCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "144">
+               </Location>
+               <Location
+                  uuid = "91053F5D-E4B7-40AC-B5AD-7B08615C3357 - 3367db0a114cfb91"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AppGatherer.CardCell.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;AppGatherer.CardCell&gt;"
+                  moduleName = "AppGatherer"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/user/Desktop/Dorivaldo/AppFilmes/AppFilmes/Home/CardCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "164">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C943DFF0-B97A-4CB9-8B12-6611AA3947D7"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AppFilmes/Home/CardCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "35"
+            endingLineNumber = "35"
+            landmarkName = "nameStack"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "C943DFF0-B97A-4CB9-8B12-6611AA3947D7 - 51f12f1484917136"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; __C.UIStackView in variable initialization expression of AppGatherer.CardCell.cardImageStackView : __C.UIStackView"
+                  moduleName = "AppGatherer"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/user/Desktop/Dorivaldo/AppFilmes/AppFilmes/Home/CardCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "28">
+               </Location>
+               <Location
+                  uuid = "C943DFF0-B97A-4CB9-8B12-6611AA3947D7 - 8390afb2faa5cac1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AppGatherer.CardCell.cardImageStackView.getter : __C.UIStackView"
+                  moduleName = "AppGatherer"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/user/Desktop/Dorivaldo/AppFilmes/AppFilmes/Home/CardCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "36"
+                  endingLineNumber = "36"
+                  offsetFromSymbolStart = "88">
+               </Location>
+               <Location
+                  uuid = "C943DFF0-B97A-4CB9-8B12-6611AA3947D7 - 8fa7bde4db7f12f9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AppGatherer.CardCell.cardImageStackView.setter : __C.UIStackView"
+                  moduleName = "AppGatherer"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/user/Desktop/Dorivaldo/AppFilmes/AppFilmes/Home/CardCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "36"
+                  endingLineNumber = "36"
+                  offsetFromSymbolStart = "112">
+               </Location>
+               <Location
+                  uuid = "C943DFF0-B97A-4CB9-8B12-6611AA3947D7 - d483cb9a2fa260db"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AppGatherer.CardCell.cardImageStackView.modify : __C.UIStackView"
+                  moduleName = "AppGatherer"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/user/Desktop/Dorivaldo/AppFilmes/AppFilmes/Home/CardCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "36"
+                  endingLineNumber = "36"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "C943DFF0-B97A-4CB9-8B12-6611AA3947D7 - 2103c0474ec39d7d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AppGatherer.CardCell.cardImageStackView.modify : __C.UIStackView with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "AppGatherer"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/user/Desktop/Dorivaldo/AppFilmes/AppFilmes/Home/CardCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "36"
+                  endingLineNumber = "36"
+                  offsetFromSymbolStart = "16">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DB2670F7-8CB5-44B9-9F48-3F2E9206794B"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AppFilmes/Home/CardCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "43"
+            endingLineNumber = "43"
+            landmarkName = "cardImageStackView"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "DB2670F7-8CB5-44B9-9F48-3F2E9206794B - d0d32d7425a25726"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; __C.UIImageView in variable initialization expression of AppGatherer.CardCell.cardImageView : __C.UIImageView"
+                  moduleName = "AppGatherer"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/user/Desktop/Dorivaldo/AppFilmes/AppFilmes/Home/CardCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "45"
+                  endingLineNumber = "45"
+                  offsetFromSymbolStart = "28">
+               </Location>
+               <Location
+                  uuid = "DB2670F7-8CB5-44B9-9F48-3F2E9206794B - 707be3214a7c52b3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AppGatherer.CardCell.cardImageView.getter : __C.UIImageView"
+                  moduleName = "AppGatherer"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/user/Desktop/Dorivaldo/AppFilmes/AppFilmes/Home/CardCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "44"
+                  endingLineNumber = "44"
+                  offsetFromSymbolStart = "88">
+               </Location>
+               <Location
+                  uuid = "DB2670F7-8CB5-44B9-9F48-3F2E9206794B - a3f1431eda53664f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AppGatherer.CardCell.cardImageView.setter : __C.UIImageView"
+                  moduleName = "AppGatherer"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/user/Desktop/Dorivaldo/AppFilmes/AppFilmes/Home/CardCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "44"
+                  endingLineNumber = "44"
+                  offsetFromSymbolStart = "112">
+               </Location>
+               <Location
+                  uuid = "DB2670F7-8CB5-44B9-9F48-3F2E9206794B - 51e4256f3cf829be"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AppGatherer.CardCell.cardImageView.modify : __C.UIImageView"
+                  moduleName = "AppGatherer"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/user/Desktop/Dorivaldo/AppFilmes/AppFilmes/Home/CardCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "44"
+                  endingLineNumber = "44"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "DB2670F7-8CB5-44B9-9F48-3F2E9206794B - ab0b67e52fdfd14f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AppGatherer.CardCell.cardImageView.modify : __C.UIImageView with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "AppGatherer"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/user/Desktop/Dorivaldo/AppFilmes/AppFilmes/Home/CardCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "44"
+                  endingLineNumber = "44"
+                  offsetFromSymbolStart = "16">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C2C974B0-0189-4DF3-976D-2B59086E2A61"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AppFilmes/Home/CardCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "54"
+            endingLineNumber = "54"
+            landmarkName = "CardCell"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "55E533A4-4958-43FC-B46B-D185D7826D1E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AppFilmes/Home/CardCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "78"
+            endingLineNumber = "78"
+            landmarkName = "init(style:reuseIdentifier:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

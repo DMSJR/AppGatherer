@@ -120,14 +120,14 @@ class CardCell: UITableViewCell{
                 cardImageView.heightAnchor.constraint(equalToConstant: 320)
                 
             ])
-            NSLayoutConstraint.activate([
-                cardImageStackView.leadingAnchor.constraint(equalTo: horizontalStack.leadingAnchor, constant: 8),
-                cardImageStackView.trailingAnchor.constraint(equalTo: horizontalStack.trailingAnchor, constant: -8),
-                cardImageStackView.topAnchor.constraint(equalTo: nameStack.bottomAnchor, constant: 8),
-                cardImageStackView.bottomAnchor.constraint(equalTo: horizontalStack.bottomAnchor, constant: -8)])
+//            NSLayoutConstraint.activate([
+//                cardImageStackView.leadingAnchor.constraint(equalTo: horizontalStack.leadingAnchor, constant: 8),
+//                cardImageStackView.trailingAnchor.constraint(equalTo: horizontalStack.trailingAnchor, constant: -8),
+//                cardImageStackView.topAnchor.constraint(equalTo: nameStack.bottomAnchor, constant: 8),
+//                cardImageStackView.bottomAnchor.constraint(equalTo: horizontalStack.bottomAnchor, constant: -8)])
             
             
             
-        }
+        }	
     }
 
