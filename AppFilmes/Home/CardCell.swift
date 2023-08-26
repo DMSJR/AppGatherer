@@ -62,13 +62,7 @@ class CardCell: UITableViewCell{
             return label
         }()
         
-        //    private let setLabel: UILabel = {
-        //        let label = UILabel()
-        //        label.font = UIFont.systemFont(ofSize: 16, weight: .regular)
-        //        label.textColor = .white
-        //        label.numberOfLines = 0
-        //        return label
-        //    }()
+        
         
         override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
             super.init(style: style, reuseIdentifier: reuseIdentifier)
@@ -109,8 +103,7 @@ class CardCell: UITableViewCell{
             NSLayoutConstraint.activate([
                 horizontalStack.topAnchor.constraint(equalTo: contentView.topAnchor, constant: 16),
                 horizontalStack.bottomAnchor.constraint(equalTo: contentView.bottomAnchor, constant: -16 ),
-                //horizontalStack.leadingAnchor.constraint(equalTo: leadingAnchor, constant: 128),
-                //horizontalStack.trailingAnchor.constraint(equalTo: trailingAnchor, constant: -128)
+                
                 
             ])
             horizontalStack.centerXAnchor.constraint(equalTo: contentView.centerXAnchor).isActive = true

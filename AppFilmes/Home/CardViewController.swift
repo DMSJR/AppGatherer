@@ -57,6 +57,21 @@ class CardViewController: UIViewController, UITableViewDataSource {
             
         }
     }
+    
+    private let inventoryButtonView : UIButton = {
+        let inventoryButton = UIButton (type: .system)
+        
+        inventoryButton.setTitleColor(.black, for: .normal)
+        inventoryButton.translatesAutoresizingMaskIntoConstraints = false
+        inventoryButton.backgroundColor = .white
+        inventoryButton.setTitle("Inventorio", for: . normal)
+        inventoryButton.addTarget(self, action: #selector(openInventory), for: .touchUpInside)
+        return inventoryButton
+    }()
+    @objc func openInventory(){
+        let inventoryViewControl = CardStorageControlView()
+        self.present(inventoryViewControl, animated: true, completion: nil)
+    }
     private let tableView : UITableView = {
         let table = UITableView()
         
@@ -94,6 +109,7 @@ class CardViewController: UIViewController, UITableViewDataSource {
         view.addSubview(titleLabel)
         view.addSubview(searchFieldView)
         view.addSubview(searchButtonView)
+        view.addSubview(inventoryButtonView)
         view.addSubview(tableView)
     
     }
@@ -115,10 +131,14 @@ class CardViewController: UIViewController, UITableViewDataSource {
             searchButtonView.topAnchor.constraint(equalTo: searchFieldView.bottomAnchor, constant: 8),
             searchButtonView.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 16),
             searchButtonView.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -16)])
-        
         NSLayoutConstraint.activate([
-            tableView.topAnchor.constraint(equalTo: searchButtonView.bottomAnchor, constant: 16),
-       	     tableView.bottomAnchor.constraint(equalTo: view.bottomAnchor),
+            inventoryButtonView.topAnchor.constraint(equalTo: searchButtonView.bottomAnchor, constant: 8),
+            inventoryButtonView.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 16),
+            inventoryButtonView.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -16)])
+           
+        NSLayoutConstraint.activate([
+            tableView.topAnchor.constraint(equalTo: inventoryButtonView.bottomAnchor, constant: 16),
+            tableView.bottomAnchor.constraint(equalTo: view.bottomAnchor),
             tableView.leadingAnchor.constraint(equalTo: view.leadingAnchor),
             tableView.trailingAnchor.constraint(equalTo: view.trailingAnchor)
         ])

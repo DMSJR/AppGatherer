@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		CE4688EF2A85A22000F63BE6 /* MTGRemoteCards.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4688EE2A85A22000F63BE6 /* MTGRemoteCards.swift */; };
 		CE4688F32A85B33B00F63BE6 /* UIImageVIew+Download.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4688F22A85B33B00F63BE6 /* UIImageVIew+Download.swift */; };
+		CE521E7B2A99821B000E4579 /* CardStorageControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE521E7A2A99821B000E4579 /* CardStorageControlView.swift */; };
+		CE7C106C2A98182D006F53C5 /* CardList.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7C106B2A98182D006F53C5 /* CardList.swift */; };
 		CE907A4D2A58958D0059E284 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE907A4C2A58958D0059E284 /* AppDelegate.swift */; };
 		CE907A4F2A58958D0059E284 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE907A4E2A58958D0059E284 /* SceneDelegate.swift */; };
 		CE907A512A58958D0059E284 /* CardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE907A502A58958D0059E284 /* CardViewController.swift */; };
@@ -26,6 +28,8 @@
 /* Begin PBXFileReference section */
 		CE4688EE2A85A22000F63BE6 /* MTGRemoteCards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MTGRemoteCards.swift; sourceTree = "<group>"; };
 		CE4688F22A85B33B00F63BE6 /* UIImageVIew+Download.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageVIew+Download.swift"; sourceTree = "<group>"; };
+		CE521E7A2A99821B000E4579 /* CardStorageControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardStorageControlView.swift; sourceTree = "<group>"; };
+		CE7C106B2A98182D006F53C5 /* CardList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardList.swift; sourceTree = "<group>"; };
 		CE907A492A58958D0059E284 /* AppGatherer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppGatherer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE907A4C2A58958D0059E284 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE907A4E2A58958D0059E284 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -70,6 +74,15 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
+		CE7C106A2A9817EB006F53C5 /* CardStorage */ = {
+			isa = PBXGroup;
+			children = (
+				CE7C106B2A98182D006F53C5 /* CardList.swift */,
+				CE521E7A2A99821B000E4579 /* CardStorageControlView.swift */,
+			);
+			path = CardStorage;
+			sourceTree = "<group>";
+		};
 		CE907A402A58958D0059E284 = {
 			isa = PBXGroup;
 			children = (
@@ -89,6 +102,7 @@
 		CE907A4B2A58958D0059E284 /* AppFilmes */ = {
 			isa = PBXGroup;
 			children = (
+				CE7C106A2A9817EB006F53C5 /* CardStorage */,
 				CE4688F12A85B31C00F63BE6 /* Extensions */,
 				CE4688F02A85AFDB00F63BE6 /* Models */,
 				CEA401912A620B1900545DAE /* Detail */,
@@ -201,6 +215,8 @@
 				CE4688EF2A85A22000F63BE6 /* MTGRemoteCards.swift in Sources */,
 				CE907A8E2A61BEC90059E284 /* Card.swift in Sources */,
 				CE907A4D2A58958D0059E284 /* AppDelegate.swift in Sources */,
+				CE521E7B2A99821B000E4579 /* CardStorageControlView.swift in Sources */,
+				CE7C106C2A98182D006F53C5 /* CardList.swift in Sources */,
 				CE4688F32A85B33B00F63BE6 /* UIImageVIew+Download.swift in Sources */,
 				CE907A6C2A60BF5A0059E284 /* CardCell.swift in Sources */,
 				CE907A4F2A58958D0059E284 /* SceneDelegate.swift in Sources */,

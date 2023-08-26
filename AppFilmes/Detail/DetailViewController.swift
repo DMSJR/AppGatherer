@@ -9,11 +9,15 @@ import UIKit
 
 class DetailViewController : UIViewController{
     
-   
+    
     var card: Card!
+    public static var jSONManipulation = JSONManipulation()
+    
+    
     
     @IBOutlet weak var cardName: UILabel!
     
+   
     @IBOutlet weak var cardText: UITextView!
     
     @IBOutlet weak var cardLegality: UITextView!
@@ -39,7 +43,22 @@ class DetailViewController : UIViewController{
                     
                 }
                 cardLegality.text = cardLegalities
-            }}}
+            }}
+        
+        
+    }
+    @IBAction func addCard(_ sender: UIButton) {
+       
+        var cardToBeStored: [CardStorage] = []
+        
+        cardToBeStored.append(CardStorage(name: card.name, numberOfCopies: 1))
+            
+            
+        
+        DetailViewController.jSONManipulation.addJSON(listOfCards: cardToBeStored)
+        print(DetailViewController.jSONManipulation.readJSON())
+        
+    }
     
     
 }
