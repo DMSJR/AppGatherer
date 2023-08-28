@@ -10,6 +10,8 @@
 		CE4688EF2A85A22000F63BE6 /* MTGRemoteCards.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4688EE2A85A22000F63BE6 /* MTGRemoteCards.swift */; };
 		CE4688F32A85B33B00F63BE6 /* UIImageVIew+Download.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4688F22A85B33B00F63BE6 /* UIImageVIew+Download.swift */; };
 		CE521E7B2A99821B000E4579 /* CardStorageControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE521E7A2A99821B000E4579 /* CardStorageControlView.swift */; };
+		CE521E7D2A9D0C21000E4579 /* StorageWithImages.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE521E7C2A9D0C21000E4579 /* StorageWithImages.swift */; };
+		CE521E7F2A9D2D5C000E4579 /* InventoryCardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE521E7E2A9D2D5C000E4579 /* InventoryCardCell.swift */; };
 		CE7C106C2A98182D006F53C5 /* CardList.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7C106B2A98182D006F53C5 /* CardList.swift */; };
 		CE907A4D2A58958D0059E284 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE907A4C2A58958D0059E284 /* AppDelegate.swift */; };
 		CE907A4F2A58958D0059E284 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE907A4E2A58958D0059E284 /* SceneDelegate.swift */; };
@@ -20,7 +22,6 @@
 		CE907A672A60BED40059E284 /* Detail.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE907A662A60BED40059E284 /* Detail.storyboard */; };
 		CE907A6A2A60BF1B0059E284 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE907A692A60BF1B0059E284 /* DetailViewController.swift */; };
 		CE907A6C2A60BF5A0059E284 /* CardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE907A6B2A60BF5A0059E284 /* CardCell.swift */; };
-		CE907A6E2A60C7100059E284 /* fenix1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE907A6D2A60C7100059E284 /* fenix1.jpg */; };
 		CE907A8E2A61BEC90059E284 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE907A8D2A61BEC90059E284 /* Card.swift */; };
 		CEBD95652A8EE9C6009AEF43 /* Frame 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CEBD95642A8EE9C6009AEF43 /* Frame 3.jpg */; };
 /* End PBXBuildFile section */
@@ -29,6 +30,8 @@
 		CE4688EE2A85A22000F63BE6 /* MTGRemoteCards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MTGRemoteCards.swift; sourceTree = "<group>"; };
 		CE4688F22A85B33B00F63BE6 /* UIImageVIew+Download.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageVIew+Download.swift"; sourceTree = "<group>"; };
 		CE521E7A2A99821B000E4579 /* CardStorageControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardStorageControlView.swift; sourceTree = "<group>"; };
+		CE521E7C2A9D0C21000E4579 /* StorageWithImages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageWithImages.swift; sourceTree = "<group>"; };
+		CE521E7E2A9D2D5C000E4579 /* InventoryCardCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InventoryCardCell.swift; sourceTree = "<group>"; };
 		CE7C106B2A98182D006F53C5 /* CardList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardList.swift; sourceTree = "<group>"; };
 		CE907A492A58958D0059E284 /* AppGatherer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppGatherer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE907A4C2A58958D0059E284 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -41,7 +44,6 @@
 		CE907A662A60BED40059E284 /* Detail.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Detail.storyboard; sourceTree = "<group>"; };
 		CE907A692A60BF1B0059E284 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		CE907A6B2A60BF5A0059E284 /* CardCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardCell.swift; sourceTree = "<group>"; };
-		CE907A6D2A60C7100059E284 /* fenix1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fenix1.jpg; sourceTree = "<group>"; };
 		CE907A8D2A61BEC90059E284 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 		CEBD95642A8EE9C6009AEF43 /* Frame 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Frame 3.jpg"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
@@ -79,6 +81,8 @@
 			children = (
 				CE7C106B2A98182D006F53C5 /* CardList.swift */,
 				CE521E7A2A99821B000E4579 /* CardStorageControlView.swift */,
+				CE521E7C2A9D0C21000E4579 /* StorageWithImages.swift */,
+				CE521E7E2A9D2D5C000E4579 /* InventoryCardCell.swift */,
 			);
 			path = CardStorage;
 			sourceTree = "<group>";
@@ -114,7 +118,6 @@
 				CE907A5A2A58958E0059E284 /* Info.plist */,
 				CEBD95642A8EE9C6009AEF43 /* Frame 3.jpg */,
 				CE907A622A6072740059E284 /* background.jpg */,
-				CE907A6D2A60C7100059E284 /* fenix1.jpg */,
 			);
 			path = AppFilmes;
 			sourceTree = "<group>";
@@ -198,7 +201,6 @@
 				CEBD95652A8EE9C6009AEF43 /* Frame 3.jpg in Resources */,
 				CE907A632A6072740059E284 /* background.jpg in Resources */,
 				CE907A592A58958E0059E284 /* LaunchScreen.storyboard in Resources */,
-				CE907A6E2A60C7100059E284 /* fenix1.jpg in Resources */,
 				CE907A562A58958E0059E284 /* Assets.xcassets in Resources */,
 				CE907A672A60BED40059E284 /* Detail.storyboard in Resources */,
 			);
@@ -213,10 +215,12 @@
 			files = (
 				CE907A512A58958D0059E284 /* CardViewController.swift in Sources */,
 				CE4688EF2A85A22000F63BE6 /* MTGRemoteCards.swift in Sources */,
+				CE521E7F2A9D2D5C000E4579 /* InventoryCardCell.swift in Sources */,
 				CE907A8E2A61BEC90059E284 /* Card.swift in Sources */,
 				CE907A4D2A58958D0059E284 /* AppDelegate.swift in Sources */,
 				CE521E7B2A99821B000E4579 /* CardStorageControlView.swift in Sources */,
 				CE7C106C2A98182D006F53C5 /* CardList.swift in Sources */,
+				CE521E7D2A9D0C21000E4579 /* StorageWithImages.swift in Sources */,
 				CE4688F32A85B33B00F63BE6 /* UIImageVIew+Download.swift in Sources */,
 				CE907A6C2A60BF5A0059E284 /* CardCell.swift in Sources */,
 				CE907A4F2A58958D0059E284 /* SceneDelegate.swift in Sources */,

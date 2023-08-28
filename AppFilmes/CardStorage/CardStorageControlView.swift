@@ -12,6 +12,7 @@ class CardStorageControlView: UIViewController{
         super.viewDidLoad()
         setupView()
     }
+  
     func setupView(){
         addViewsInHierarchy()
         setupConstraints()
@@ -33,12 +34,13 @@ class CardStorageControlView: UIViewController{
             textViewText += "\(card.numberOfCopies)x \(card.name)\n"
             
         }
+        print (textViewText)
         text.text = textViewText
         return text
     }()
     var titleLabel: UILabel = {
         let title = UILabel()
-        title.text = "Inventorio"
+        title.text = "Editar inventario"
         title.backgroundColor = .white
         title.textAlignment = .center
         title.font = UIFont.systemFont(ofSize: 28, weight: .bold)
@@ -71,6 +73,7 @@ class CardStorageControlView: UIViewController{
             }
         }
         DetailViewController.jSONManipulation.createJSON(deck: cardsArray)
+        
         dismiss(animated: true, completion: nil)
         
     }

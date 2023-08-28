@@ -15,11 +15,26 @@ struct CardStorage: Codable {
 }
 class JSONManipulation{
     
-    func createJSON(deck: [CardStorage]){
+        func createJSON(deck: [CardStorage]){
         
         let defaults = UserDefaults.standard
         let enconder = JSONEncoder()
-        guard let data = try? enconder.encode(deck) else {return}
+        var savedList = deck
+            if savedList.count > 1{
+                savedList.sort{card1, card2 in
+                    return card1.name >= card2.name}
+            
+                    for counter in 0 ..< (savedList.count - 1){
+                    if savedList[counter].name == savedList[counter + 1].name{
+                        savedList[counter + 1].numberOfCopies = savedList[counter].numberOfCopies + savedList[counter + 1].numberOfCopies
+                        savedList[counter].name = ""
+                    }
+                    
+                }
+                savedList = savedList.filter{
+                    $0.name != ""
+                }}
+        guard let data = try? enconder.encode(savedList) else {return}
         defaults.set(data , forKey:"cardStorage")
         
     }

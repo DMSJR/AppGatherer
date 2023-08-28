@@ -64,14 +64,19 @@ class CardViewController: UIViewController, UITableViewDataSource {
         inventoryButton.setTitleColor(.black, for: .normal)
         inventoryButton.translatesAutoresizingMaskIntoConstraints = false
         inventoryButton.backgroundColor = .white
-        inventoryButton.setTitle("Inventorio", for: . normal)
-        inventoryButton.addTarget(self, action: #selector(openInventory), for: .touchUpInside)
+        inventoryButton.setTitle("Inventario", for: . normal)
+        inventoryButton.addTarget(self, action: #selector(openInventoryWithImages), for: .touchUpInside)
         return inventoryButton
     }()
-    @objc func openInventory(){
+    /*@objc func openInventory(){
         let inventoryViewControl = CardStorageControlView()
         self.present(inventoryViewControl, animated: true, completion: nil)
+    }*/
+    @objc func openInventoryWithImages(){
+        let inventoryWithImagesViewControl = StorageWithImagesViewController()
+        self.present(inventoryWithImagesViewControl, animated: true, completion: nil)
     }
+    
     private let tableView : UITableView = {
         let table = UITableView()
         
