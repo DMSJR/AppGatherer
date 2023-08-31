@@ -29,12 +29,12 @@ class CardStorageControlView: UIViewController{
         text.font = UIFont.systemFont(ofSize: 18)
         text.translatesAutoresizingMaskIntoConstraints = false
         var textViewText : String = ""
-        var cardsArray: [CardStorage] = DetailViewController.jSONManipulation.readJSON()
+        var cardsArray: [CardStorage] = CardViewController.jSONManipulation.readJSON()
         for card in cardsArray {
             textViewText += "\(card.numberOfCopies)x \(card.name)\n"
             
         }
-        print (textViewText)
+        
         text.text = textViewText
         return text
     }()
@@ -47,7 +47,7 @@ class CardStorageControlView: UIViewController{
         title.translatesAutoresizingMaskIntoConstraints = false
         return title
     }()
-    var saveButton: UIButton = {
+    lazy var saveButton: UIButton = {[weak self] in
         let save = UIButton()
         save.translatesAutoresizingMaskIntoConstraints = false
         save.setTitle("Salvar", for: .normal)
@@ -72,7 +72,7 @@ class CardStorageControlView: UIViewController{
 
             }
         }
-        DetailViewController.jSONManipulation.createJSON(deck: cardsArray)
+        CardViewController.jSONManipulation.createJSON(deck: cardsArray)
         
         dismiss(animated: true, completion: nil)
         

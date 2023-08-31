@@ -34,19 +34,22 @@ class StorageWithImagesViewController: UIViewController, UITableViewDataSource {
         return label
     }()
     
-    private let inventoryButtonView : UIButton = {
+    private lazy var inventoryButtonView : UIButton = {[weak self ] in
         let inventoryButton = UIButton (type: .system)
         
         inventoryButton.setTitleColor(.black, for: .normal)
         inventoryButton.translatesAutoresizingMaskIntoConstraints = false
         inventoryButton.backgroundColor = .white
         inventoryButton.setTitle("Editar Inventario", for: . normal)
+        
         inventoryButton.addTarget(self, action: #selector(openInventory), for: .touchUpInside)
         return inventoryButton
     }()
     @objc func openInventory(){
-        let inventoryViewControl = CardStorageControlView()
-        self.present(inventoryViewControl, animated: true, completion: nil)
+        
+            
+            let inventoryViewControl = CardStorageControlView()
+            self.present(inventoryViewControl, animated: true, completion: nil)
     }
     private let tableView : UITableView = {
         let table = UITableView()
@@ -60,7 +63,7 @@ class StorageWithImagesViewController: UIViewController, UITableViewDataSource {
     
     private func setupView(){
         view.backgroundColor = .white
-        fetchInventory(cardstorage: DetailViewController.jSONManipulation.readJSON())
+        fetchInventory(cardstorage: CardViewController.jSONManipulation.readJSON())
         addViewsInHierarchy()
         setupConstraints()
         tableView.dataSource = self
@@ -109,20 +112,20 @@ class StorageWithImagesViewController: UIViewController, UITableViewDataSource {
     private func fetchInventory(cardstorage: [CardStorage]){
         if !cardstorage.isEmpty{
             var url : URL
-            print (cardstorage)
+            //print (cardstorage)
             for card in cardstorage{
                 
                 var cardNameWithoutSpaces: String
                 cardNameWithoutSpaces = card.name.replacingOccurrences(of: " ", with: "_")
         
                 url = URL (string: ("http://api.magicthegathering.io/v1/cards?name=") + cardNameWithoutSpaces)!
-                var request = URLRequest(url: url)
-                var task = URLSession.shared.dataTask(with: request){data, _, error in
+                let request = URLRequest(url: url)
+                let task = URLSession.shared.dataTask(with: request){data, _, error in
                     if error != nil {return}
-                    guard var cardsData = data else {return}
+                    guard let cardsData = data else {return}
                    // print (String(data: cardsData, encoding: .utf8))
-                    var decoder = JSONDecoder()
-                    guard var remoteCards = try? decoder.decode(MTGRemoteCards.self, from: cardsData)else{
+                    let decoder = JSONDecoder()
+                    guard let remoteCards = try? decoder.decode(MTGRemoteCards.self, from: cardsData)else{
                         print ("Erro")
                         return}
                     
@@ -141,7 +144,7 @@ class StorageWithImagesViewController: UIViewController, UITableViewDataSource {
     
 extension StorageWithImagesViewController: UITableViewDelegate{
     func searchForCard(card: Card) -> CardStorage{
-        for cardToSeek in DetailViewController.jSONManipulation.readJSON(){
+        for cardToSeek in CardViewController.jSONManipulation.readJSON(){
             if card.name == cardToSeek.name{
                 return cardToSeek
             }

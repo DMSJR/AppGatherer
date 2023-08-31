@@ -13,7 +13,7 @@ class CardViewController: UIViewController, UITableViewDataSource {
     
     private var cards: [Card] = []
     
-            
+    public static var jSONManipulation = JSONManipulation()
     
     
 
@@ -36,7 +36,7 @@ class CardViewController: UIViewController, UITableViewDataSource {
         searchField.translatesAutoresizingMaskIntoConstraints = false
         return searchField
     }()
-    private let searchButtonView : UIButton = {
+    private lazy var searchButtonView : UIButton = {[weak self] in
         let searchButton = UIButton(type: .system)
         
         searchButton.setTitleColor(.white, for: .normal)
@@ -156,13 +156,13 @@ class CardViewController: UIViewController, UITableViewDataSource {
         else{
             url = URL (string: ("http://api.magicthegathering.io/v1/cards?name=") + searchedCard!)!
         }
-        var request = URLRequest(url: url)
-        var task = URLSession.shared.dataTask(with: request){data, _, error in
+        let request = URLRequest(url: url)
+        let task = URLSession.shared.dataTask(with: request){data, _, error in
             if error != nil { return}
-            guard var cardsData = data else {return}
-            var decoder = JSONDecoder()
+            guard let cardsData = data else {return}
+            let decoder = JSONDecoder()
            //print (String(data: cardsData, encoding: .utf8))
-            guard var remoteCards = try? decoder.decode(MTGRemoteCards.self, from: cardsData) else {
+            guard let remoteCards = try? decoder.decode(MTGRemoteCards.self, from: cardsData) else {
                 print("Erro")
                 return}
             
@@ -178,6 +178,13 @@ class CardViewController: UIViewController, UITableViewDataSource {
         
         
     }
+    override func viewWillDisappear(_ animated: Bool) {
+        super.viewWillDisappear(animated)
+        
+        fetchRemoteCards(searchedCard: nil)
+        DispatchQueue.main.async {
+            self.tableView.reloadData()
+        }}
 }
 extension CardViewController: UITableViewDelegate{
     

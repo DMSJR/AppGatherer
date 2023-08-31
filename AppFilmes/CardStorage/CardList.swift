@@ -13,6 +13,8 @@ struct CardStorage: Codable {
     
     
 }
+
+
 class JSONManipulation{
     
         func createJSON(deck: [CardStorage]){
@@ -54,7 +56,7 @@ class JSONManipulation{
             $0.name != ""
         }
         createJSON(deck: savedList)
-        print (savedList)
+       // print (savedList)
     }
     
     public func readJSON()-> [CardStorage]{

@@ -11,7 +11,7 @@ class DetailViewController : UIViewController{
     
     
     var card: Card!
-    public static var jSONManipulation = JSONManipulation()
+   
     
     
     
@@ -55,7 +55,7 @@ class DetailViewController : UIViewController{
             
             
         
-        DetailViewController.jSONManipulation.addJSON(listOfCards: cardToBeStored)
+        CardViewController.jSONManipulation.addJSON(listOfCards: cardToBeStored)
         //print(DetailViewController.jSONManipulation.readJSON())
         
     }
