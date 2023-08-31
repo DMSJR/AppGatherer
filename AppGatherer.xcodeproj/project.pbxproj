@@ -18,12 +18,12 @@
 		CE907A512A58958D0059E284 /* CardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE907A502A58958D0059E284 /* CardViewController.swift */; };
 		CE907A562A58958E0059E284 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE907A552A58958E0059E284 /* Assets.xcassets */; };
 		CE907A592A58958E0059E284 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE907A572A58958E0059E284 /* LaunchScreen.storyboard */; };
-		CE907A632A6072740059E284 /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE907A622A6072740059E284 /* background.jpg */; };
 		CE907A672A60BED40059E284 /* Detail.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE907A662A60BED40059E284 /* Detail.storyboard */; };
 		CE907A6A2A60BF1B0059E284 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE907A692A60BF1B0059E284 /* DetailViewController.swift */; };
 		CE907A6C2A60BF5A0059E284 /* CardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE907A6B2A60BF5A0059E284 /* CardCell.swift */; };
 		CE907A8E2A61BEC90059E284 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE907A8D2A61BEC90059E284 /* Card.swift */; };
 		CEBD95652A8EE9C6009AEF43 /* Frame 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CEBD95642A8EE9C6009AEF43 /* Frame 3.jpg */; };
+		CEC08BF32AA1199C00E7DA20 /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CEC08BF22AA1199C00E7DA20 /* background.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,12 +40,12 @@
 		CE907A552A58958E0059E284 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE907A582A58958E0059E284 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE907A5A2A58958E0059E284 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CE907A622A6072740059E284 /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = background.jpg; path = ../../background.jpg; sourceTree = "<group>"; };
 		CE907A662A60BED40059E284 /* Detail.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Detail.storyboard; sourceTree = "<group>"; };
 		CE907A692A60BF1B0059E284 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		CE907A6B2A60BF5A0059E284 /* CardCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardCell.swift; sourceTree = "<group>"; };
 		CE907A8D2A61BEC90059E284 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 		CEBD95642A8EE9C6009AEF43 /* Frame 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Frame 3.jpg"; sourceTree = SOURCE_ROOT; };
+		CEC08BF22AA1199C00E7DA20 /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = background.jpg; path = AppFilmes/background.jpg; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,7 +117,7 @@
 				CE907A572A58958E0059E284 /* LaunchScreen.storyboard */,
 				CE907A5A2A58958E0059E284 /* Info.plist */,
 				CEBD95642A8EE9C6009AEF43 /* Frame 3.jpg */,
-				CE907A622A6072740059E284 /* background.jpg */,
+				CEC08BF22AA1199C00E7DA20 /* background.jpg */,
 			);
 			path = AppFilmes;
 			sourceTree = "<group>";
@@ -199,8 +199,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				CEBD95652A8EE9C6009AEF43 /* Frame 3.jpg in Resources */,
-				CE907A632A6072740059E284 /* background.jpg in Resources */,
 				CE907A592A58958E0059E284 /* LaunchScreen.storyboard in Resources */,
+				CEC08BF32AA1199C00E7DA20 /* background.jpg in Resources */,
 				CE907A562A58958E0059E284 /* Assets.xcassets in Resources */,
 				CE907A672A60BED40059E284 /* Detail.storyboard in Resources */,
 			);
